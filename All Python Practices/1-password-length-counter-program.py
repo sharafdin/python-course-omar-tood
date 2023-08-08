@@ -1,8 +1,8 @@
-full_name = input("Enter Your Name: ")
-password = input("Enter your password: ")
-
-length_password = len(password)
+name = input('Enter your name: ')
+password = input('Enter your password: ')
 
 hidden_password = '*' * len(password)
 
-print(f"Hello! {full_name}, your password {hidden_password} is {length_password} letters long")
+len_pass = len(password)
+
+print(f'ASC, {name} your password {hidden_password} is {len_pass} letters long')
